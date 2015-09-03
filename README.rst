@@ -36,7 +36,7 @@ metastable isomeric energy level.  Each nuclide serves as a data
 'whiteboard'.  Users can associate arbitrary data with a nuclide using
 a standard (key, value) approach.
 
-Example::
+::
  >>> from oklo.core.ids import NuclideId
  >>> from oklo.core.nuclide import Nuclide 
  >>> C_12_id = NuclideId(Z=6,A=12,M=0)      # Create unique ID for Carbon-12
@@ -68,7 +68,7 @@ such as the beta decay of 12B to 12C.  Each reaction serves as a data
 'whiteboard'.  Users can associate arbitrary data with a reaction
 using a standard (key, value) approach.
 
-Example::
+::
  >>> from oklo.core.ids import NuclideId, ReactionId
  >>> from oklo.core.defs import ReactionType
  >>> from oklo.core.reaction import Reaction
