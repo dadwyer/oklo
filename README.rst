@@ -35,7 +35,6 @@ protons and number of neutrons in the nucleus, as well as an optional
 metastable isomeric energy level.  Each nuclide serves as a data
 'whiteboard'.  Users can associate arbitrary data with a nuclide using
 a standard (key, value) approach.
-
 ::
  >>> from oklo.core.ids import NuclideId
  >>> from oklo.core.nuclide import Nuclide 
@@ -67,7 +66,6 @@ A reaction is a unique type of nuclear transition between nuclides,
 such as the beta decay of 12B to 12C.  Each reaction serves as a data
 'whiteboard'.  Users can associate arbitrary data with a reaction
 using a standard (key, value) approach.
-
 ::
  >>> from oklo.core.ids import NuclideId, ReactionId
  >>> from oklo.core.defs import ReactionType
