@@ -17,8 +17,9 @@ is designed in a generic fashion for a broad range of applications
 Installation:
 =============
 
-Installion is most convenient via the pip utility::
- $ pip install oklo
+Installion is most convenient via the pip utility:
+::
+ $ pip install oklo 
 
 Description:
 ============
