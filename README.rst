@@ -17,8 +17,7 @@ is designed in a generic fashion for a broad range of applications
 Installation:
 =============
 
-Installion is most convenient via the pip utility:
-::
+Installion is most convenient via the pip utility::
  $ pip install oklo
 
 Description:
@@ -123,9 +122,7 @@ Examples:
 =========
 
 For a more advance example, demonstrating the use of models and
-factories, execute the following:
-
-::
+factories, execute the following::
  $ python -i oklo/examples/antineutrino_spectrum_endf.py
 
 This builds a reaction network for modeling a nominal commercial PWR
