@@ -126,7 +126,7 @@ For a more advance example, demonstrating the use of models and
 factories, execute the following:
 
 ::
-$ python -i oklo/examples/antineutrino_spectrum_endf.py
+ $ python -i oklo/examples/antineutrino_spectrum_endf.py
 
 This builds a reaction network for modeling a nominal commercial PWR
 reactor.  The network is populated with tabulated nuclear data on
